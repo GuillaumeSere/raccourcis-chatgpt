@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f8f7f3"/>
+  <circle cx="1010" cy="140" r="250" fill="#f1eee6"/>
+  <circle cx="1010" cy="140" r="190" fill="none" stroke="#e5e0d5" stroke-width="2" stroke-dasharray="6 10"/>
+  <rect x="775" y="115" width="330" height="300" rx="16" fill="#fffefa" stroke="#e9e4d9" stroke-width="2"/>
+  <rect x="775" y="115" width="330" height="48" rx="16" fill="#f1eee8"/>
+  <circle cx="803" cy="139" r="6" fill="#f26a42"/><circle cx="823" cy="139" r="6" fill="#e5c879"/><circle cx="843" cy="139" r="6" fill="#a4c89d"/>
+  <text x="800" y="206" fill="#a09c92" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">TON PROCHAIN PROMPT</text>
+  <rect x="800" y="228" width="116" height="38" rx="7" fill="#fff0e9"/>
+  <text x="817" y="253" fill="#e36d4c" font-family="Arial, sans-serif" font-size="22" font-weight="700">/explique</text>
+  <text x="800" y="300" fill="#33322f" font-family="Georgia, serif" font-size="24">comment fonctionne</text>
+  <text x="800" y="333" fill="#33322f" font-family="Georgia, serif" font-size="24">une API ?</text>
+  <rect x="800" y="356" width="280" height="38" rx="7" fill="#f1f5ed"/>
+  <text x="818" y="381" fill="#68715f" font-family="Arial, sans-serif" font-size="15">✳  Une réponse plus claire.</text>
+  <rect x="75" y="76" width="39" height="39" rx="12" fill="#f26a42"/>
+  <text x="85" y="105" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="700">✳</text>
+  <text x="128" y="104" fill="#20201f" font-family="Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-1.5">promptothèque</text>
+  <text x="75" y="220" fill="#77756f" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="4">LE GUIDE PRATIQUE POUR CHATGPT</text>
+  <text x="75" y="315" fill="#20201f" font-family="Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-4">60 prompts.</text>
+  <text x="75" y="390" fill="#20201f" font-family="Georgia, serif" font-size="64" font-style="italic">De meilleures réponses.</text>
+  <text x="79" y="452" fill="#77756f" font-family="Arial, sans-serif" font-size="22">Des idées à explorer, adapter et copier.</text>
+  <rect x="75" y="512" width="160" height="45" rx="7" fill="#20201f"/>
+  <text x="95" y="541" fill="#ffffff" font-family="Arial, sans-serif" font-size="15" font-weight="700">ÉCRIRE MIEUX</text>
+  <circle cx="1083" cy="510" r="40" fill="#f5c956"/>
+  <text x="1061" y="517" fill="#574826" font-family="Arial, sans-serif" font-size="16" font-weight="700">60+</text>
+</svg>

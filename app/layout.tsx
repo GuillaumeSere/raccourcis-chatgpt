@@ -41,6 +41,14 @@ export const metadata: Metadata = {
     title: "Promptothèque — 60 prompts pour mieux utiliser ChatGPT",
     description:
       "Un guide gratuit de 60 prompts à explorer, adapter et copier pour obtenir des réponses plus utiles de ChatGPT.",
+    images: [
+      {
+        url: "/opengraph-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "Promptothèque : 60 prompts pour obtenir de meilleures réponses avec ChatGPT",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
