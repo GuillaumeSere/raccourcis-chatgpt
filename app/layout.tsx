@@ -13,9 +13,52 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Promptothèque — 50 raccourcis pour mieux utiliser ChatGPT",
+  metadataBase: new URL("https://promptotheque-gpt.netlify.app"),
+  title: {
+    default: "Promptothèque — 60 prompts pour mieux utiliser ChatGPT",
+    template: "%s | Promptothèque",
+  },
   description:
-    "Un guide pratique de 50 commandes à ajouter à tes prompts ChatGPT pour écrire, comprendre, organiser et obtenir de meilleures réponses.",
+    "Découvre 60 exemples de prompts ChatGPT pour écrire, apprendre, programmer et t’organiser. Recherche par thème et copie les formulations gratuitement.",
+  applicationName: "Promptothèque",
+  verification: {
+    google: "hGMCr1W6D99RGbRgZ1WGKJuTdw_Mmqq7rlSObwX_1Ic",
+  },
+  alternates: { canonical: "/" },
+  keywords: [
+    "prompts ChatGPT",
+    "exemples de prompts",
+    "commandes ChatGPT",
+    "bien utiliser ChatGPT",
+    "prompt IA",
+    "rédaction avec ChatGPT",
+  ],
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    url: "/",
+    siteName: "Promptothèque",
+    title: "Promptothèque — 60 prompts pour mieux utiliser ChatGPT",
+    description:
+      "Un guide gratuit de 60 prompts à explorer, adapter et copier pour obtenir des réponses plus utiles de ChatGPT.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Promptothèque — 60 prompts pour ChatGPT",
+    description:
+      "60 exemples de prompts pour écrire, apprendre, programmer et mieux utiliser ChatGPT.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
