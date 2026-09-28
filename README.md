@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Promptothèque
 
-## Getting Started
+Un guide interactif en français pour mieux formuler ses demandes à ChatGPT. Il rassemble 60 idées de commandes de prompt, classées par thème, avec des exemples copiables et une fiche détaillée pour chaque commande.
 
-First, run the development server:
+> Les commandes présentées ici sont des formulations à écrire dans un prompt. Ce ne sont pas des raccourcis clavier ni des commandes spéciales intégrées à ChatGPT.
+
+## Fonctionnalités
+
+- 60 commandes regroupées par thèmes : rédaction, compréhension, organisation, programmation, SEO, réseaux sociaux et productivité.
+- Recherche instantanée et filtres par catégorie.
+- Exemples copiables en un clic.
+- Modale détaillée pour lire une commande et son conseil d’utilisation.
+- Mise en page responsive, avec prise en charge de la préférence système de réduction des animations.
+
+## Prérequis
+
+- Node.js (version compatible avec Next.js 16)
+- npm
+
+## Installation
+
+Clone le dépôt, puis installe les dépendances :
+
+```bash
+npm install
+```
+
+## Lancer en développement
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvre ensuite [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Vérification et production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Créer une compilation de production :
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Lancer le serveur de production après compilation :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Lancer ESLint :
 
-## Deploy on Vercel
+```bash
+npm run lint
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Structure du projet
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+app/
+├── globals.css   # Styles, responsive et animations
+├── layout.tsx    # Layout global et métadonnées
+└── page.tsx      # Page d’accueil, catalogue et interactions
+```
+
+Les commandes et leurs exemples sont définis dans `app/page.tsx`. Les styles du site se trouvent dans `app/globals.css`.
+
+## Technologies
+
+- [Next.js 16](https://nextjs.org/)
+- [React 19](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS 4](https://tailwindcss.com/)
