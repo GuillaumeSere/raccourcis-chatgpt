@@ -112,7 +112,7 @@ export default function Home() {
       <div className="announcement"><span className="announcement-dot" /> Le guide pratique pour mieux prompter <span className="announcement-arrow">↗</span></div>
       <header className="site-header">
         <a className="brand" href="#accueil"><span className="brand-mark">✳</span> promptothèque<span className="brand-period">.</span></a>
-        <nav aria-label="Navigation principale"><a href="#raccourcis">Les raccourcis</a><a href="#mode-emploi">Comment ça marche</a></nav>
+        <nav aria-label="Navigation principale"><a href="#raccourcis">Les raccourcis</a><a href="/outils">Les outils</a><a href="#mode-emploi">Comment ça marche</a></nav>
         <a className="header-cta" href="#raccourcis">Explorer le guide <span>↘</span></a>
       </header>
 
@@ -150,7 +150,7 @@ export default function Home() {
       <section className="recipe"><div className="recipe-left"><div className="eyebrow"><span>✳</span> LE PETIT PLUS <span className="eyebrow-line" /></div><h2>Crée ton propre<br /><em>raccourci.</em></h2><p>Tu peux combiner plusieurs consignes pour créer une formule qui te ressemble. Donne-lui un nom et réutilise-la quand tu veux.</p><a href="#raccourcis" className="text-link">Piocher dans les commandes <span>↗</span></a></div><div className="recipe-right"><div className="recipe-head"><span>TA RECETTE PERSONNELLE</span><span className="recipe-spark">✳</span></div><div className="recipe-line"><span className="recipe-num">01</span><code>/client</code><span>Nom de ton raccourci</span></div><div className="recipe-line"><span className="recipe-num">02</span><code>+ /pro</code><span>Un ton professionnel</span></div><div className="recipe-line"><span className="recipe-num">03</span><code>+ /court</code><span>Une réponse concise</span></div><div className="recipe-line"><span className="recipe-num">04</span><code>+ /cta</code><span>Une prochaine étape claire</span></div><div className="recipe-result"><span>TA FORMULE</span><p><b>/client</b> : ton professionnel, réponse courte et appel à l’action.</p><span className="result-star">✦</span></div></div></section>
 
       <section className="closing"><div className="closing-mark">✳</div><div className="closing-eyebrow">LE MEILLEUR RACCOURCI ?</div><h2>Être précis sur<br />ce que tu <em>veux.</em></h2><p>Un bon exemple, un peu de contexte et un objectif clair : c’est souvent tout ce qu’il faut pour transformer ta demande.</p><a href="#raccourcis" className="button-primary">Trouver une idée <span>↗</span></a><span className="closing-note">FAIT POUR ÊTRE UTILISÉ, PAS JUSTE LU ✳</span></section>
-      <footer><a className="brand" href="#accueil"><span className="brand-mark">✳</span> promptothèque<span className="brand-period">.</span></a><span>60 idées pour mieux parler à ChatGPT.</span><a href="#accueil" className="text-link"><span className="arrow">↑</span> </a></footer>
+      <footer><a className="brand" href="#accueil"><span className="brand-mark">✳</span> promptothèque<span className="brand-period">.</span></a><span>60 idées pour mieux parler à ChatGPT.</span><div className="footer-links"><a href="/outils">Les outils ChatGPT</a><a href="#accueil" className="text-link" aria-label="Retour en haut"><span className="arrow">↑</span></a></div></footer>
     </main>
   );
 }

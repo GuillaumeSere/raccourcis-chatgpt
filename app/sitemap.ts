@@ -7,5 +7,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 1,
     },
+    {
+      url: "https://promptotheque-gpt.netlify.app/outils",
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
   ];
 }
